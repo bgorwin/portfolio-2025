@@ -1,9 +1,9 @@
 "use client";
-
-import Image from "next/image";
+import React from "react";
 import { useEffect, useRef } from "react";
-import Navigation from "./components/navigation";
-import { fadeUpText } from "./animations/fadeUpText";
+import Image from "next/image";
+import Navigation from "../components/navigation";
+import { fadeUpText } from "../animations/fadeUpText";
 
 
   
@@ -14,7 +14,6 @@ export default function Home() {
   useEffect(() => {
     fadeUpText(linesRef.current);
   }, []);
-
   
 
   return (
@@ -24,7 +23,7 @@ export default function Home() {
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <div className="flex flex-col md:flex-row lg:flex-row gap-[32px] justify-start">
             <div className="flex flex-col flex-3/4 gap-[8px]">
-              <h1 className="blcok heading-1 text-9xl font-bold text-white" ref={(el) => (linesRef.current[0] = el)}>This is Brents Profile</h1>
+              <h1 className="blcok heading-1 text-9xl font-bold text-white"  ref={(el) => (linesRef.current[0] = el)}>About Page</h1>
             </div>
             <div className="flex flex-col flex-1/4 justify-center gap-[8px] h-auto">
               <p className="text-2xl text-gray-400">Software Engineer</p>
