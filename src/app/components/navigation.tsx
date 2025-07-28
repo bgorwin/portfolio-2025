@@ -1,17 +1,14 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useState, useRef } from 'react';
-import { fadeUpText } from '../animations/fadeUpText';
+import { useState, useRef } from 'react';
+// import { fadeUpText } from '../animations/fadeUpText';
 
 export default function Navigation() {
   const pathname = usePathname();
   const [activeLink, setActiveLink] = useState('');
 
   const linesRef = useRef<Array<HTMLDivElement | null>>([]);
-  
-    useEffect(() => {
-        fadeUpText(linesRef.current);
-    }, []);
+
   
 
   return (

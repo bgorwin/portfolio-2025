@@ -3,7 +3,7 @@ import React from "react";
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Navigation from "../components/navigation";
-import { fadeUpText } from "../animations/fadeUpText";
+// import { fadeUpText } from "../animations/fadeUpText";
 
 
   
@@ -12,7 +12,7 @@ export default function Home() {
   const linesRef = useRef<Array<HTMLDivElement | null>>([]);
 
   useEffect(() => {
-    fadeUpText(linesRef.current);
+    // fadeUpText(linesRef.current);
   }, []);
   
 

@@ -32,29 +32,15 @@ const mod = __turbopack_context__.x("next/dist/server/app-render/work-unit-async
 
 module.exports = mod;
 }}),
-"[project]/src/app/animations/fadeUpText.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/src/app/animations/fadeUpText.tsx [app-ssr] (ecmascript)": (function(__turbopack_context__) {
 
-var { g: global, __dirname } = __turbopack_context__;
+var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
-__turbopack_context__.s({
-    "fadeUpText": (()=>fadeUpText)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/node_modules/gsap/index.js [app-ssr] (ecmascript) <locals>");
-;
-// Type guard to ensure non-null elements
-const isHTMLElement = (el)=>el !== null;
-const fadeUpText = (elements)=>{
-    const validElements = elements.filter(isHTMLElement);
-    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$gsap$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"].from(validElements, {
-        y: 50,
-        opacity: 0,
-        duration: 1,
-        ease: "power3.out",
-        stagger: 0.2
-    });
-};
-}}),
+const e = new Error(`Could not parse module '[project]/src/app/animations/fadeUpText.tsx'
+
+Expected ',', got '.'`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/src/app/components/navigation.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
