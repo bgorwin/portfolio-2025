@@ -131,32 +131,41 @@ function Hero() {
         }
     }["Hero.useGSAP"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "hero-container",
+        className: "hero-container w-full",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "hero-title text-8xl pb-3",
-                children: "I’m Brent"
-            }, void 0, false, {
-                fileName: "[project]/src/app/components/hero.tsx",
-                lineNumber: 39,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "hero-description text-6xl",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "hero-text",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "bg-gradient-to-r from-blue-500 to-green-400 bg-clip-text text-transparent",
-                        children: "Front-End Developer"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "hero-title text-8xl pb-3",
+                        children: "I’m Brent"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/hero.tsx",
                         lineNumber: 40,
-                        columnNumber: 54
+                        columnNumber: 17
                     }, this),
-                    " who builds fast, accessible, and responsive web apps."
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "hero-description text-6xl",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "bg-gradient-to-r from-blue-500 to-green-400 bg-clip-text text-transparent",
+                                children: "Front-End Developer"
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/components/hero.tsx",
+                                lineNumber: 41,
+                                columnNumber: 58
+                            }, this),
+                            " who builds fast, accessible, and responsive web apps."
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/src/app/components/hero.tsx",
+                        lineNumber: 41,
+                        columnNumber: 17
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/hero.tsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -174,7 +183,7 @@ function Hero() {
                                         className: "absolute inset-0 rounded-md border border-white/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 46,
                                         columnNumber: 189
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -182,18 +191,18 @@ function Hero() {
                                         children: "Github"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 46,
                                         columnNumber: 344
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/hero.tsx",
-                                lineNumber: 43,
+                                lineNumber: 46,
                                 columnNumber: 53
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.tsx",
-                            lineNumber: 43,
+                            lineNumber: 46,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -206,7 +215,7 @@ function Hero() {
                                         className: "absolute inset-0 rounded-md border border-white/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 48,
                                         columnNumber: 189
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -214,18 +223,18 @@ function Hero() {
                                         children: "LinkedIn"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 48,
                                         columnNumber: 344
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/hero.tsx",
-                                lineNumber: 45,
+                                lineNumber: 48,
                                 columnNumber: 53
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.tsx",
-                            lineNumber: 45,
+                            lineNumber: 48,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -238,7 +247,7 @@ function Hero() {
                                         className: "absolute inset-0 rounded-md border border-white/20 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-all duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 50,
                                         columnNumber: 188
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -246,29 +255,29 @@ function Hero() {
                                         children: "Resume"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/hero.tsx",
-                                        lineNumber: 47,
+                                        lineNumber: 50,
                                         columnNumber: 343
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/hero.tsx",
-                                lineNumber: 47,
+                                lineNumber: 50,
                                 columnNumber: 53
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/hero.tsx",
-                            lineNumber: 47,
+                            lineNumber: 50,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/hero.tsx",
-                    lineNumber: 42,
+                    lineNumber: 45,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/hero.tsx",
-                lineNumber: 41,
+                lineNumber: 44,
                 columnNumber: 13
             }, this)
         ]
@@ -315,7 +324,7 @@ function Home() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]",
+                className: "flex  items-center justify-items-center min-h-screen px-20 font-[family-name:var(--font-geist-sans)]",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                         className: "flex flex-col gap-[32px] row-start-2 items-center sm:items-start",
