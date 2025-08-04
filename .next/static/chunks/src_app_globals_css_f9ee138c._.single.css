@@ -12,7 +12,6 @@
       --tw-gradient-from-position: 0%;
       --tw-gradient-via-position: 50%;
       --tw-gradient-to-position: 100%;
-      --tw-font-weight: initial;
       --tw-backdrop-blur: initial;
       --tw-backdrop-brightness: initial;
       --tw-backdrop-contrast: initial;
@@ -31,7 +30,7 @@
   :root, :host {
     --color-green-400: oklch(79.2% .209 151.711);
     --color-blue-500: oklch(62.3% .214 259.815);
-    --color-gray-400: oklch(70.7% .022 261.325);
+    --color-gray-700: oklch(37.3% .034 259.733);
     --color-white: #fff;
     --spacing: .25rem;
     --text-xl: 1.25rem;
@@ -42,9 +41,6 @@
     --text-6xl--line-height: 1;
     --text-8xl: 6rem;
     --text-8xl--line-height: 1;
-    --text-9xl: 8rem;
-    --text-9xl--line-height: 1;
-    --font-weight-bold: 700;
     --radius-md: .375rem;
     --blur-sm: 8px;
     --blur-md: 12px;
@@ -264,16 +260,24 @@
     grid-row-start: 3;
   }
 
+  .mx-6 {
+    margin-inline: calc(var(--spacing) * 6);
+  }
+
+  .mx-auto {
+    margin-inline: auto;
+  }
+
   .flex {
     display: flex;
   }
 
-  .grid {
-    display: grid;
-  }
-
   .inline-block {
     display: inline-block;
+  }
+
+  .h-20 {
+    height: calc(var(--spacing) * 20);
   }
 
   .h-auto {
@@ -286,18 +290,6 @@
 
   .w-full {
     width: 100%;
-  }
-
-  .flex-1\/4 {
-    flex: 25%;
-  }
-
-  .flex-3\/4 {
-    flex: 75%;
-  }
-
-  .grid-rows-\[20px_1fr_20px\] {
-    grid-template-rows: 20px 1fr 20px;
   }
 
   .flex-col {
@@ -320,28 +312,12 @@
     justify-content: flex-end;
   }
 
-  .justify-start {
-    justify-content: flex-start;
-  }
-
   .justify-items-center {
     justify-items: center;
   }
 
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
-
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-
-  .gap-16 {
-    gap: calc(var(--spacing) * 16);
-  }
-
-  .gap-\[8px\] {
-    gap: 8px;
   }
 
   .gap-\[24px\] {
@@ -373,6 +349,10 @@
     .border-white\/20 {
       border-color: color-mix(in oklab, var(--color-white) 20%, transparent);
     }
+  }
+
+  .bg-gray-700 {
+    background-color: var(--color-gray-700);
   }
 
   .bg-white\/10 {
@@ -408,12 +388,12 @@
     padding: calc(var(--spacing) * 4);
   }
 
-  .p-8 {
-    padding: calc(var(--spacing) * 8);
-  }
-
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
   }
 
   .px-10 {
@@ -428,24 +408,24 @@
     padding-block: calc(var(--spacing) * 1);
   }
 
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
+  }
+
   .py-7 {
     padding-block: calc(var(--spacing) * 7);
   }
 
-  .ps-20 {
-    padding-inline-start: calc(var(--spacing) * 20);
-  }
-
-  .pr-\[10\%\] {
-    padding-right: 10%;
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
   }
 
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
 
-  .pb-20 {
-    padding-bottom: calc(var(--spacing) * 20);
+  .align-middle {
+    vertical-align: middle;
   }
 
   .font-\[family-name\:var\(--font-geist-sans\)\] {
@@ -467,23 +447,9 @@
     line-height: var(--tw-leading, var(--text-8xl--line-height));
   }
 
-  .text-9xl {
-    font-size: var(--text-9xl);
-    line-height: var(--tw-leading, var(--text-9xl--line-height));
-  }
-
   .text-xl {
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
-  }
-
-  .font-bold {
-    --tw-font-weight: var(--font-weight-bold);
-    font-weight: var(--font-weight-bold);
-  }
-
-  .text-gray-400 {
-    color: var(--color-gray-400);
   }
 
   .text-transparent {
@@ -530,39 +496,9 @@
     }
   }
 
-  @media (hover: hover) {
-    .hover\:underline:hover {
-      text-decoration-line: underline;
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:underline-offset-4:hover {
-      text-underline-offset: 4px;
-    }
-  }
-
   @media (width >= 40rem) {
     .sm\:items-start {
       align-items: flex-start;
-    }
-  }
-
-  @media (width >= 40rem) {
-    .sm\:p-20 {
-      padding: calc(var(--spacing) * 20);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:flex-row {
-      flex-direction: row;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:flex-row {
-      flex-direction: row;
     }
   }
 }
@@ -640,11 +576,6 @@ body {
   syntax: "<length-percentage>";
   inherits: false;
   initial-value: 100%;
-}
-
-@property --tw-font-weight {
-  syntax: "*";
-  inherits: false
 }
 
 @property --tw-backdrop-blur {
