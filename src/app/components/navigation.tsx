@@ -12,7 +12,7 @@ export default function Navigation() {
   
 
   return (
-    <div className="d-flex justify-end align-end p-4  bg-blur-[2px] backdrop-blur-md bg-white/10">
+    <div className="flex justify-end align-end p-4  bg-blur-[2px] backdrop-blur-md bg-white/10">
         <nav className="flex justify-end gap-4">
             <Link href="/" className={`nav-link ${activeLink === '/' ? 'active' : ''} text-xl`}>
                 Home
